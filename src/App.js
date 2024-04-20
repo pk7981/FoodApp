@@ -22,13 +22,13 @@ function App() {
       .then((data) => setData(data.hits));
   };
  
-  const onChangeHandler = (e) => {
-    const { name, value } = e.target
-    setItem({ ...item, [name]: value })
-  }
-  useEffect(() => {
-    console.log(item)
-  }, [item])
+  // const onChangeHandler = (e) => {
+  //   const { name, value } = e.target
+  //   setItem({ ...item, [name]: value })
+  // }
+  // useEffect(() => {
+  //   console.log(item)
+  // }, [item])
   return (
     <div className="App">
  
